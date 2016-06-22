@@ -1,0 +1,154 @@
+    /* Elements principaux de la page */
+    
+    #main_wrapper {
+        width: 50%;
+        margin: auto;
+        border-radius: 10px;
+        border: solid #b5b5b5 1px;
+        box-shadow: 0px 0px 5px grey;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    
+    body {
+        background-image: url(../atecna_background.jpg);
+        /*background-image: radial-gradient(white, black);*/
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    
+    section {
+        width: 85%;
+        margin: auto;
+    }
+    
+    section.corpsPage {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    section h1 {
+        font-family: "Trebuchet MS", serif;
+        font-weight: bold;
+        font-size: 1.2em;
+        color: #d43219;
+        border-bottom-color: #fad681;
+        border-bottom-style: solid;
+        padding: 0em 0em 0.2em 0.4em;
+        width: 100%;
+    }
+    /* Header */
+    
+    header {
+        padding: 1.2em 0.5em 0.5em 2em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(181, 181, 181, 0.2) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(181, 181, 181, 0.2) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(181, 181, 181, 0.2) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#a6b5b5b5', GradientType=0);
+        /* IE6-9 */
+    }
+    /* Navigation */
+    
+    nav {
+        background: rgb(225, 103, 62);
+        /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(225, 103, 62, 1) 0%, rgba(174, 52, 11, 1) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(225, 103, 62, 1) 0%, rgba(174, 52, 11, 1) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(225, 103, 62, 1) 0%, rgba(174, 52, 11, 1) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e1663e', endColorstr='#ae340b', GradientType=0);
+        /* IE6-9 */
+    }
+    
+    nav ul {
+        margin-top: 0px;
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+        border-bottom: 0.1em #e36940 solid;
+    }
+    
+    nav li {
+        border-right: 0.1em #e1673e solid;
+        border-left: 0.1em #ac3209 solid;
+        padding: 0.5em 0.7em 0em 0.7em;
+    }
+    
+    nav li.home {
+        color: red;
+        border-right: 0.1em #e1673e solid;
+        border-left: none;
+    }
+    
+    nav li.contact {
+        border-right: none;
+    }
+    
+    nav a {
+        font-family: "Trebuchet MS", serif;
+        color: #FFFFFF;
+        font-weight: bold;
+        padding-bottom: 0.1em;
+        text-decoration: none;
+        text-shadow: 0em 0.05em #000000;
+        font-size: 0.9em;
+        letter-spacing: 0.1em;
+    }
+    
+    nav li:hover,
+    nav li a:hover {
+        background: #e8b22b;
+        color: #d43219;
+        text-shadow: 0em 0.05em #FFFFFF;
+    }
+    /* Sections, Articles */
+    
+    h2 {
+        font-family: Georgia, serif;
+        font-size: 1em;
+    }
+    
+    p {
+        font-family: "Trebuchet MS", serif;
+        font-weight: 100;
+        font-size: 0.75em;
+    }
+    
+    div.articles2 {
+        width: 50%;
+    }
+    
+    aside {
+        width: 40%;
+    }
+    
+    video {
+        width: 100%;
+        margin-top: 1em;
+    }
+    
+    input {
+        padding: 0.3em;
+        margin: 1em;
+    }
+    /* FLEXSLIDER */
+    /* Changes the colours of the "dots" navigation */
+    
+    .flex-control-paging li a {
+        background: rgba(255, 255, 255, 0.5);
+    }
+    
+    .flex-control-paging li a.flex-active {
+        background: white;
+    }
+    /* Footer */
